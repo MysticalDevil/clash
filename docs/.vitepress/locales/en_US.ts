@@ -31,7 +31,7 @@ export default defineConfig({
     ],
 
     editLink: {
-      pattern: 'https://github.com/Dreamacro/clash/edit/master/docs/:path',
+      pattern: 'https://github.com/MysticalDevil/clash/edit/master/docs/:path',
       text: 'Edit this page on GitHub'
     },
 
@@ -50,8 +50,8 @@ function nav() {
     {
       text: 'Download',
       items: [
-        { text: 'Open-source Edition', link: 'https://github.com/Dreamacro/clash/releases/' },
-        { text: 'Premium Edition', link: 'https://github.com/Dreamacro/clash/releases/tag/premium' },
+        { text: 'Open-source Edition', link: 'https://github.com/MysticalDevil/clash/releases/' },
+        { text: 'Premium Edition', link: 'https://github.com/MysticalDevil/clash/releases/tag/premium' },
       ]
     }
   ]

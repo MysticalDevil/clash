@@ -5,7 +5,7 @@ sidebarOrder: 4
 
 # 常见问题
 
-这里是一些大家遇到的常见问题. 如果您有任何此处未列出的问题, 请随时[提交一个 issue](https://github.com/Dreamacro/clash/issues/new/choose).
+这里是一些大家遇到的常见问题. 如果您有任何此处未列出的问题, 请随时[提交一个 issue](https://github.com/MysticalDevil/clash/issues/new/choose).
 
 [[toc]]
 
@@ -35,11 +35,11 @@ sidebarOrder: 4
 
 这里是一些人们在 Clash 上使用的常见系统, 以及每个系统的推荐版本:
 
-- NETGEAR WNDR3700v2: mips-hardfloat [#846](https://github.com/Dreamacro/clash/issues/846)
-- NETGEAR WNDR3800: mips-softfloat [#579](https://github.com/Dreamacro/clash/issues/579)
-- 华硕RT-AC5300: armv5 [#2356](https://github.com/Dreamacro/clash/issues/2356)
-- 联发科MT7620A, MT7621A: mipsle-softfloat ([#136](https://github.com/Dreamacro/clash/issues/136))
-- mips_24kc: [#192](https://github.com/Dreamacro/clash/issues/192)
+- NETGEAR WNDR3700v2: mips-hardfloat [#846](https://github.com/MysticalDevil/clash/issues/846)
+- NETGEAR WNDR3800: mips-softfloat [#579](https://github.com/MysticalDevil/clash/issues/579)
+- 华硕RT-AC5300: armv5 [#2356](https://github.com/MysticalDevil/clash/issues/2356)
+- 联发科MT7620A, MT7621A: mipsle-softfloat ([#136](https://github.com/MysticalDevil/clash/issues/136))
+- mips_24kc: [#192](https://github.com/MysticalDevil/clash/issues/192)
 
 如果您的设备未在此处列出, 您可以使用 `uname -m` 检查设备的 CPU 架构, 并在发布页面中找到相应的版本.
 
@@ -47,20 +47,20 @@ sidebarOrder: 4
 
 官方 Clash 内核项目不会实现/修复以下内容:
 
-- [Snell](https://github.com/Dreamacro/clash/issues/2466)
-- [Custom CA](https://github.com/Dreamacro/clash/issues/2333)
-- [VMess Mux](https://github.com/Dreamacro/clash/issues/450)
-- [VLess](https://github.com/Dreamacro/clash/issues/1185)
-- [KCP](https://github.com/Dreamacro/clash/issues/16)
-- [mKCP](https://github.com/Dreamacro/clash/issues/2308)
-- [TLS Encrypted Client Hello](https://github.com/Dreamacro/clash/issues/2295)
-- [TCP support for Clash DNS server](https://github.com/Dreamacro/clash/issues/368)
-- [MITM](https://github.com/Dreamacro/clash/issues/227#issuecomment-508693628)
+- [Snell](https://github.com/MysticalDevil/clash/issues/2466)
+- [Custom CA](https://github.com/MysticalDevil/clash/issues/2333)
+- [VMess Mux](https://github.com/MysticalDevil/clash/issues/450)
+- [VLess](https://github.com/MysticalDevil/clash/issues/1185)
+- [KCP](https://github.com/MysticalDevil/clash/issues/16)
+- [mKCP](https://github.com/MysticalDevil/clash/issues/2308)
+- [TLS Encrypted Client Hello](https://github.com/MysticalDevil/clash/issues/2295)
+- [TCP support for Clash DNS server](https://github.com/MysticalDevil/clash/issues/368)
+- [MITM](https://github.com/MysticalDevil/clash/issues/227#issuecomment-508693628)
 
 当官方Go QUIC库发布时, 以下内容将被考虑实施:
 
-- [TUIC](https://github.com/Dreamacro/clash/issues/2222)
-- [Hysteria](https://github.com/Dreamacro/clash/issues/1863)
+- [TUIC](https://github.com/MysticalDevil/clash/issues/2222)
+- [Hysteria](https://github.com/MysticalDevil/clash/issues/1863)
 
 ## 在本地机器上节点正常工作, 但在路由器或容器中不起作用
 
@@ -68,14 +68,14 @@ sidebarOrder: 4
 
 ## 规则匹配的时间复杂度
 
-请参考这个讨论: [#422](https://github.com/Dreamacro/clash/issues/422)
+请参考这个讨论: [#422](https://github.com/MysticalDevil/clash/issues/422)
 
 ## Clash Premium 无法访问互联网
 
 您可以参考这些相关讨论:
 
-- [#432](https://github.com/Dreamacro/clash/issues/432#issuecomment-571634905)
-- [#2480](https://github.com/Dreamacro/clash/issues/2480)
+- [#432](https://github.com/MysticalDevil/clash/issues/432#issuecomment-571634905)
+- [#2480](https://github.com/MysticalDevil/clash/issues/2480)
 
 ## 错误: 不支持的 RULE-SET 规则类型
 
@@ -85,7 +85,7 @@ sidebarOrder: 4
 FATA[0000] Parse config error: Rules[0] [RULE-SET,apple,REJECT] error: unsupported rule type RULE-SET
 ```
 
-您正在使用 Clash 开源版. 规则 Providers 目前仅在 [免费 Premium 内核](https://github.com/Dreamacro/clash/releases/tag/premium) 中可用.
+您正在使用 Clash 开源版. 规则 Providers 目前仅在 [免费 Premium 内核](https://github.com/MysticalDevil/clash/releases/tag/premium) 中可用.
 
 ## DNS 劫持不起作用
 

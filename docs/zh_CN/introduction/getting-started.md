@@ -9,7 +9,7 @@ sidebarOrder: 2
 
 ## 使用预编译的二进制文件
 
-您可以在这里下载 Clash 的内核二进制文件: [https://github.com/Dreamacro/clash/releases](https://github.com/Dreamacro/clash/releases)
+您可以在这里下载 Clash 的内核二进制文件: [https://github.com/MysticalDevil/clash/releases](https://github.com/MysticalDevil/clash/releases)
 
 ## 从源码编译
 
@@ -42,9 +42,9 @@ Receiving objects: 100% (359/359), 248.99 KiB | 1.63 MiB/s, done.
 Resolving deltas: 100% (25/25), done.
 $ cd clash && make darwin-arm64
 fatal: No names found, cannot describe anything.
-GOARCH=arm64 GOOS=darwin CGO_ENABLED=0 go build -trimpath -ldflags '-X "github.com/Dreamacro/clash/constant.Version=unknown version" -X "github.com/Dreamacro/clash/constant.BuildTime=Mon May  8 16:47:10 UTC 2023" -w -s -buildid=' -o bin/clash-darwin-arm64
+GOARCH=arm64 GOOS=darwin CGO_ENABLED=0 go build -trimpath -ldflags '-X "github.com/MysticalDevil/clash/constant.Version=unknown version" -X "github.com/MysticalDevil/clash/constant.BuildTime=Mon May  8 16:47:10 UTC 2023" -w -s -buildid=' -o bin/clash-darwin-arm64
 $ file bin/clash-darwin-arm64
 bin/clash-darwin-arm64: Mach-O 64-bit executable arm64
 ```
 
-对于其他构建目标, 请查看 [Makefile](https://github.com/Dreamacro/clash/blob/master/Makefile).
+对于其他构建目标, 请查看 [Makefile](https://github.com/MysticalDevil/clash/blob/master/Makefile).

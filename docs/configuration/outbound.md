@@ -17,11 +17,11 @@ Proxies are some outbound targets that you can configure. Like proxy servers, yo
 
 Clash supports the following ciphers (encryption methods) for Shadowsocks:
 
-| Family | Ciphers |
-| ------ | ------- |
-| AEAD | aes-128-gcm, aes-192-gcm, aes-256-gcm, chacha20-ietf-poly1305, xchacha20-ietf-poly1305 |
-| Stream | aes-128-cfb, aes-192-cfb, aes-256-cfb, rc4-md5, chacha20-ietf, xchacha20 |
-| Block | aes-128-ctr, aes-192-ctr, aes-256-ctr |
+| Family | Ciphers                                                                                |
+| ------ | -------------------------------------------------------------------------------------- |
+| AEAD   | aes-128-gcm, aes-192-gcm, aes-256-gcm, chacha20-ietf-poly1305, xchacha20-ietf-poly1305 |
+| Stream | aes-128-cfb, aes-192-cfb, aes-256-cfb, rc4-md5, chacha20-ietf, xchacha20               |
+| Block  | aes-128-ctr, aes-192-ctr, aes-256-ctr                                                  |
 
 In addition, Clash also supports popular Shadowsocks plugins `obfs` and `v2ray-plugin`.
 
@@ -81,8 +81,8 @@ In addition, Clash also supports popular Shadowsocks plugins `obfs` and `v2ray-p
 
 Clash supports the infamous anti-censorship protocol ShadowsocksR as well. The supported ciphers:
 
-| Family | Ciphers |
-| ------ | ------- |
+| Family | Ciphers                                                                  |
+| ------ | ------------------------------------------------------------------------ |
 | Stream | aes-128-cfb, aes-192-cfb, aes-256-cfb, rc4-md5, chacha20-ietf, xchacha20 |
 
 Supported obfuscation methods:
@@ -270,7 +270,7 @@ Clash also supports HTTP outbound:
 Being an alternative protocol for anti-censorship, Clash has integrated support for Snell as well.
 
 ::: tip
-Clash does not support Snell v4. ([#2466](https://github.com/Dreamacro/clash/issues/2466))
+Clash does not support Snell v4. ([#2466](https://github.com/MysticalDevil/clash/issues/2466))
 :::
 
 ```yaml

@@ -58,14 +58,14 @@ systemctl status clash
 journalctl -xe
 ```
 
-本指南贡献者为 [ktechmidas](https://github.com/ktechmidas). ([#754](https://github.com/Dreamacro/clash/issues/754))
+本指南贡献者为 [ktechmidas](https://github.com/ktechmidas). ([#754](https://github.com/MysticalDevil/clash/issues/754))
 
 ## Docker
 
-本项目提供了预构建的 Clash 和 Clash Premium Docker 镜像. 因此, 在 Linux 上您可以使用 [Docker Compose](https://docs.docker.com/compose/) 部署 Clash. 但是, 您应该知道在容器中运行 **Clash Premium** 是[不被推荐的](https://github.com/Dreamacro/clash/issues/2249#issuecomment-1203494599)
+本项目提供了预构建的 Clash 和 Clash Premium Docker 镜像. 因此, 在 Linux 上您可以使用 [Docker Compose](https://docs.docker.com/compose/) 部署 Clash. 但是, 您应该知道在容器中运行 **Clash Premium** 是[不被推荐的](https://github.com/MysticalDevil/clash/issues/2249#issuecomment-1203494599)
 
 ::: warning
-由于 Mac 版 Docker 中缺少[主机网络和 TUN 支持](https://github.com/Dreamacro/clash/issues/770#issuecomment-650951876), 此设置将无法在 macOS 系统上运行.
+由于 Mac 版 Docker 中缺少[主机网络和 TUN 支持](https://github.com/MysticalDevil/clash/issues/770#issuecomment-650951876), 此设置将无法在 macOS 系统上运行.
 :::
 
 ::: code-group

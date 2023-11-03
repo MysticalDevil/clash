@@ -10,7 +10,7 @@ Clash是一个跨平台的基于规则的代理工具, 在网络和应用层运�
 目前, Clash 包含两个版本:
 
 - [Clash](https://github.com/Dreamacro/clash): 发布于[github.com/Dreamacro/clash](https://github.com/Dreamacro/clash)的开源版本
-- [Clash Premium 版本](https://github.com/Dreamacro/clash/releases/tag/premium): 具有[TUN 和更多支持](/zh_CN/premium/introduction) 的专有内核 (免费)
+- [Clash Premium 版本](https://github.com/MysticalDevil/clash/releases/tag/premium): 具有[TUN 和更多支持](/zh_CN/premium/introduction) 的专有内核 (免费)
 
 虽然这个 Wiki 涵盖了上述两个版本的内容, 然而对于普通用户来说, Clash 的使用可能仍是一种挑战. 而对于考虑使用 GUI 客户端的用户, 我们确实有一些建议:
 
@@ -35,4 +35,4 @@ Clash是一个跨平台的基于规则的代理工具, 在网络和应用层运�
 
 ## License
 
-Clash 是根据 [GPL-3.0](https://github.com/Dreamacro/clash/blob/master/LICENSE) 开源许可证发布的. 在 [v0.16.0](https://github.com/Dreamacro/clash/releases/tag/v0.16.0) 或 [e5284c](https://github.com/Dreamacro/clash/commit/e5284cf647717a8087a185d88d15a01096274bc2) 提交之前, 其基于 MIT 许可证授权.
+Clash 是根据 [GPL-3.0](https://github.com/MysticalDevil/clash/blob/master/LICENSE) 开源许可证发布的. 在 [v0.16.0](https://github.com/MysticalDevil/clash/releases/tag/v0.16.0) 或 [e5284c](https://github.com/MysticalDevil/clash/commit/e5284cf647717a8087a185d88d15a01096274bc2) 提交之前, 其基于 MIT 许可证授权.

@@ -9,7 +9,7 @@ To get started with Clash, you can either build it from source or download pre-b
 
 ## Using pre-built binaries
 
-You can download Clash core binaries here: [https://github.com/Dreamacro/clash/releases](https://github.com/Dreamacro/clash/releases)
+You can download Clash core binaries here: [https://github.com/MysticalDevil/clash/releases](https://github.com/MysticalDevil/clash/releases)
 
 ## Install from source
 
@@ -42,9 +42,9 @@ Receiving objects: 100% (359/359), 248.99 KiB | 1.63 MiB/s, done.
 Resolving deltas: 100% (25/25), done.
 $ cd clash && make darwin-arm64
 fatal: No names found, cannot describe anything.
-GOARCH=arm64 GOOS=darwin CGO_ENABLED=0 go build -trimpath -ldflags '-X "github.com/Dreamacro/clash/constant.Version=unknown version" -X "github.com/Dreamacro/clash/constant.BuildTime=Mon May  8 16:47:10 UTC 2023" -w -s -buildid=' -o bin/clash-darwin-arm64
+GOARCH=arm64 GOOS=darwin CGO_ENABLED=0 go build -trimpath -ldflags '-X "github.com/MysticalDevil/clash/constant.Version=unknown version" -X "github.com/MysticalDevil/clash/constant.BuildTime=Mon May  8 16:47:10 UTC 2023" -w -s -buildid=' -o bin/clash-darwin-arm64
 $ file bin/clash-darwin-arm64
 bin/clash-darwin-arm64: Mach-O 64-bit executable arm64
 ```
 
-For other build targets, check out the [Makefile](https://github.com/Dreamacro/clash/blob/master/Makefile).
+For other build targets, check out the [Makefile](https://github.com/MysticalDevil/clash/blob/master/Makefile).

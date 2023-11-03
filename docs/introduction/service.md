@@ -58,14 +58,14 @@ systemctl status clash
 journalctl -xe
 ```
 
-Credits to [ktechmidas](https://github.com/ktechmidas) for this guide. ([#754](https://github.com/Dreamacro/clash/issues/754))
+Credits to [ktechmidas](https://github.com/ktechmidas) for this guide. ([#754](https://github.com/MysticalDevil/clash/issues/754))
 
 ## Docker
 
-We provide pre-built images of Clash and Clash Premium. Therefore you can deploy Clash with [Docker Compose](https://docs.docker.com/compose/) if you're on Linux. However, you should be advised that it's [not recommended](https://github.com/Dreamacro/clash/issues/2249#issuecomment-1203494599) to run **Clash Premium** in a container.
+We provide pre-built images of Clash and Clash Premium. Therefore you can deploy Clash with [Docker Compose](https://docs.docker.com/compose/) if you're on Linux. However, you should be advised that it's [not recommended](https://github.com/MysticalDevil/clash/issues/2249#issuecomment-1203494599) to run **Clash Premium** in a container.
 
 ::: warning
-This setup will not work on macOS systems due to the lack of [host networking and TUN support](https://github.com/Dreamacro/clash/issues/770#issuecomment-650951876) in Docker for Mac.
+This setup will not work on macOS systems due to the lack of [host networking and TUN support](https://github.com/MysticalDevil/clash/issues/770#issuecomment-650951876) in Docker for Mac.
 :::
 
 

@@ -13,7 +13,7 @@ One of the biggest advantage of using Clash TUN is the built-in support of the *
 `tun.auto-route` is only available on macOS, Windows, Linux and Android, and only receives IPv4 traffic. `tun.auto-redir` is only available on Linux(needs netlink support in the kernel).
 :::
 
-There are two options of TCP/IP stack available: `system` or `gvisor`. In order to get the best performance available, we recommend that you always use `system` stack unless you have a specific reason or compatibility issue to use `gvisor`. If that's the case, do not hesitate to [submit an issue](https://github.com/Dreamacro/clash/issues/new/choose).
+There are two options of TCP/IP stack available: `system` or `gvisor`. In order to get the best performance available, we recommend that you always use `system` stack unless you have a specific reason or compatibility issue to use `gvisor`. If that's the case, do not hesitate to [submit an issue](https://github.com/MysticalDevil/clash/issues/new/choose).
 
 ## Technical Limitations
 
