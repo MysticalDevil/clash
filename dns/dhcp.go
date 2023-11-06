@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Dreamacro/clash/component/dhcp"
-	"github.com/Dreamacro/clash/component/iface"
-	"github.com/Dreamacro/clash/component/resolver"
+	"github.com/MysticalDevil/clash/component/dhcp"
+	"github.com/MysticalDevil/clash/component/iface"
+	"github.com/MysticalDevil/clash/component/resolver"
 
 	D "github.com/miekg/dns"
 )

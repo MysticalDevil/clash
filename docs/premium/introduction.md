@@ -5,7 +5,7 @@ sidebarOrder: 1
 
 # Introduction
 
-In the past, there was only one open-source version of Clash, until some [improper uses and redistributions](https://github.com/Dreamacro/clash/issues/541#issuecomment-672029110) of Clash arose. From that, we decided to fork Clash and develop the more advanced features in a private GitHub repository.
+In the past, there was only one open-source version of Clash, until some [improper uses and redistributions](https://github.com/MysticalDevil/clash/issues/541#issuecomment-672029110) of Clash arose. From that, we decided to fork Clash and develop the more advanced features in a private GitHub repository.
 
 Don't worry just yet - the Premium core will stay free of charge, and the security is enforced with peer reviews from multiple credible developers.
 
@@ -23,4 +23,4 @@ The Premium core is a fork of the open-source Clash core with the addition of th
 
 ## Obtaining a Copy
 
-You can download the latest Clash Premium binaries from [GitHub Releases](https://github.com/Dreamacro/clash/releases/tag/premium).
+You can download the latest Clash Premium binaries from [GitHub Releases](https://github.com/MysticalDevil/clash/releases/tag/premium).

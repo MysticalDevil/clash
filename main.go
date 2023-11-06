@@ -10,11 +10,11 @@ import (
 	"syscall"
 	_ "time/tzdata"
 
-	"github.com/Dreamacro/clash/config"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/hub"
-	"github.com/Dreamacro/clash/hub/executor"
-	"github.com/Dreamacro/clash/log"
+	"github.com/MysticalDevil/clash/config"
+	C "github.com/MysticalDevil/clash/constant"
+	"github.com/MysticalDevil/clash/hub"
+	"github.com/MysticalDevil/clash/hub/executor"
+	"github.com/MysticalDevil/clash/log"
 
 	"go.uber.org/automaxprocs/maxprocs"
 )

@@ -3,8 +3,8 @@ package rules
 import (
 	"strings"
 
-	"github.com/Dreamacro/clash/component/mmdb"
-	C "github.com/Dreamacro/clash/constant"
+	"github.com/MysticalDevil/clash/component/mmdb"
+	C "github.com/MysticalDevil/clash/constant"
 )
 
 // Implements C.Rule
